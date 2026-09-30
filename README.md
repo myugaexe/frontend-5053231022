@@ -27,15 +27,15 @@ Kalau dosen memperbaiki sesuatu di pertemuan yang sudah dirilis (mis. ada bug di
 Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (lihat `pertemuan-XX/SOAL.md`) — heading-nya dicek otomatis, jangan diganti namanya.
 
 ## Struktur Project
-(tulis di sini)
+`main.tsx` adalah file utama yang digunakan untuk menjalankan aplikasi React dan menghubungkan aplikasi dengan elemen HTML yang ada di `index.html`, sedangkan `App.tsx` berperan sebagai tempat untuk membuat dan mengatur tampilan utama dari aplikasi React yang akan ditampilkan kepada pengguna.
 
 ## Identitas
-- Nama: (tulis di sini)
-- NRP: (tulis di sini)
-- Kelas: (tulis di sini)
+- Nama: Muh Yuga Billawal Rizqi
+- NRP: 5053231022
+- Kelas: Pengembangan Frontend Dasar
 
 ## Commit vs Push
-(tulis di sini)
+`Commit` adalah seperti checkpoint di antara perubahan-perubahan kecil yang kita buat dalam project dan masih tersimpan secara lokal jika belum dilakukan push, sedangkan `push` adalah proses mengirim commit tersebut ke repository GitHub agar perubahan yang kita buat dapat tersimpan dan dilihat secara online.
 
 ## JSX vs TSX
 (tulis di sini)
