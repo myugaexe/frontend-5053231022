@@ -38,10 +38,12 @@ Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (l
 `Commit` adalah seperti checkpoint di antara perubahan-perubahan kecil yang kita buat dalam project dan masih tersimpan secara lokal jika belum dilakukan push, sedangkan `push` adalah proses mengirim commit tersebut ke repository GitHub agar perubahan yang kita buat dapat tersimpan dan dilihat secara online.
 
 ## JSX vs TSX
-(tulis di sini)
+.jsx adalah file JavaScript yang digunakan untuk menulis kode React dengan JSX, sedangkan .tsx adalah file TypeScript yang juga mendukung JSX. Perbedaannya adalah .tsx dapat menggunakan fitur TypeScript seperti tipe data pada props sehingga kode menjadi lebih terstruktur dan mengurangi kesalahan. Project ini menggunakan .tsx karena menggunakan TypeScript untuk memberikan pengecekan tipe pada kode React.
 
 ## Kenapa Union Type untuk Status
-(tulis di sini)
+Union type lebih baik daripada menggunakan `string` karena status yang digunakan hanya memiliki tiga pilihan, yaitu `pending`, `selesai`, dan `batal`. Dengan union type, TypeScript dapat membatasi nilai yang boleh digunakan sehingga kesalahan penulisan status dapat diketahui lebih awal.
+
 
 ## Refleksi
-(tulis di sini)
+Konsep yang paling mengubah cara berpikir saya adalah penggunaan komponen dan props. Dibandingkan HTML biasa yang langsung menulis struktur halaman, JSX/TSX memungkinkan tampilan dibuat dalam komponen yang bisa digunakan kembali dan datanya dapat dikirim melalui props.
+
