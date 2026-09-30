@@ -7,6 +7,19 @@
 //   bernilai true, dan TIDAK ada class itu sama sekali saat false,
 // - menampilkan teks tugas di dalamnya.
 // Lihat SOAL.md untuk kontrak lengkap.
-export function KartuTugas(props: any) {
-  return <div>TODO</div>
+type KartuTugasProps = {
+  teks: string
+  selesai: boolean
+}
+
+export function KartuTugas({ teks, selesai }: KartuTugasProps) {
+  return (
+    <div
+      className={`p-4 rounded-xl shadow-md ${
+        selesai ? "line-through" : ""
+      }`}
+    >
+      {teks}
+    </div>
+  )
 }

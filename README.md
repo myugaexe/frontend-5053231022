@@ -47,3 +47,7 @@ Union type lebih baik daripada menggunakan `string` karena status yang digunakan
 ## Refleksi
 Konsep yang paling mengubah cara berpikir saya adalah penggunaan komponen dan props. Dibandingkan HTML biasa yang langsung menulis struktur halaman, JSX/TSX memungkinkan tampilan dibuat dalam komponen yang bisa digunakan kembali dan datanya dapat dikirim melalui props.
 
+## Refleksi Pertemuan 3
+Hal yang paling mengubah cara berpikir saya adalah conditional rendering dan penggunaan Tailwind CSS. Dengan conditional rendering, tampilan dapat menyesuaikan kondisi data tanpa harus menulis banyak struktur HTML. Tailwind juga membuat styling lebih praktis karena class untuk tampilan dapat langsung ditulis pada elemen.
+
+

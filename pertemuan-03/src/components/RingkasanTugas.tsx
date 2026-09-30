@@ -8,6 +8,24 @@
 //   jangan sampai pesan perayaan muncul saat tugas.length === 0 (jebakan
 //   umum: Array.prototype.every() pada array kosong selalu true).
 // Lihat SOAL.md untuk kontrak lengkap.
-export function RingkasanTugas(props: any) {
-  return <p>TODO</p>
+import type { Tugas } from "../types"
+
+type RingkasanTugasProps = {
+  tugas: Tugas[]
+}
+
+export function RingkasanTugas({ tugas }: RingkasanTugasProps) {
+  const jumlahSelesai = tugas.filter((item) => item.selesai).length
+
+  return (
+    <div>
+      <p>
+        {jumlahSelesai} dari {tugas.length} selesai
+      </p>
+
+      {tugas.length > 0 && tugas.every((item) => item.selesai) && (
+        <p>Semua tugas selesai!</p>
+      )}
+    </div>
+  )
 }
