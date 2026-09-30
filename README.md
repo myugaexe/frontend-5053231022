@@ -50,4 +50,11 @@ Konsep yang paling mengubah cara berpikir saya adalah penggunaan komponen dan pr
 ## Refleksi Pertemuan 3
 Hal yang paling mengubah cara berpikir saya adalah conditional rendering dan penggunaan Tailwind CSS. Dengan conditional rendering, tampilan dapat menyesuaikan kondisi data tanpa harus menulis banyak struktur HTML. Tailwind juga membuat styling lebih praktis karena class untuk tampilan dapat langsung ditulis pada elemen.
 
-
+## Refleksi Pertemuan 4
+Variabel biasa akan di-reset setiap komponen dirender ulang dan perubahannya
+tidak membuat React me-render ulang tampilan, sedangkan state (useState)
+nilainya dipertahankan antar render dan setiap perubahannya lewat setter
+memicu render ulang sehingga UI ikut berubah. e.target.value perlu diubah
+dulu ke number karena nilainya selalu bertipe string, sehingga kalau langsung
+dijumlahkan hasilnya menjadi penggabungan string ("10" + "3" = "103"),
+bukan penjumlahan angka (13).
